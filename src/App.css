@@ -1,5 +1,5 @@
 .app {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
@@ -56,7 +56,7 @@ main {
 }
 
 .link::before {
-  content: "";
+  content: '';
   display: inline;
   width: 0%;
   height: 0.2em;
@@ -84,7 +84,7 @@ main {
 .btn {
   display: block;
   cursor: pointer;
-  padding: 0.8em 1.4em;
+  padding: 0.6em 1.2em;
   font-weight: 500;
   font-size: 0.9rem;
   text-transform: lowercase;
@@ -96,6 +96,10 @@ main {
   border: 2px solid var(--clr-primary);
   position: relative;
   overflow: hidden;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
   z-index: 1;
 }
 
@@ -105,7 +109,7 @@ main {
 }
 
 .btn--outline:before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: var(--clr-primary);
   right: 100%;

@@ -10,7 +10,9 @@ const about = {
     role: 'Full Stack Java Developer',
     description:
         "Hello! I'm Akash Soni, a dedicated and passionate Full Stack Java Developer. With a strong foundation in both frontend and backend technologies, I thrive on creating seamless and efficient web applications.",
-    resume: '/Akash_Soni_resume.pdf',
+    resume:
+        './public/Akash_Resume.pdf',
+
     social: {
         linkedin: 'https://www.linkedin.com/in/akash-soni-6312aa1a1/',
         github: 'https://github.com/aakash-sony',
@@ -18,8 +20,6 @@ const about = {
 }
 
 const projects = [
-    // projects can be added an removed
-    // if there are no projects, Projects section won't show up
     {
         name: 'Project 1',
         description:
