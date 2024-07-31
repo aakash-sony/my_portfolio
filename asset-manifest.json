@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aakash-sony/my_portfolio/static/css/main.8984c2ed.css",
+    "main.js": "/aakash-sony/my_portfolio/static/js/main.c46ebe1d.js",
+    "index.html": "/aakash-sony/my_portfolio/index.html",
+    "main.8984c2ed.css.map": "/aakash-sony/my_portfolio/static/css/main.8984c2ed.css.map",
+    "main.c46ebe1d.js.map": "/aakash-sony/my_portfolio/static/js/main.c46ebe1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8984c2ed.css",
+    "static/js/main.c46ebe1d.js"
+  ]
+}
