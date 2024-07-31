@@ -1,17 +1,15 @@
 const header = {
-    // all the properties are optional - can be left empty or deleted
     homepage: 'https://github.com/aakash-sony/my_portfolio',
     title: 'My Portfolio',
 }
 
 const about = {
-    // all the properties are optional - can be left empty or deleted
     name: 'Akash Soni',
     role: 'Full Stack Java Developer',
     description:
         "Hello! I'm Akash Soni, a dedicated and passionate Full Stack Java Developer. With a strong foundation in both frontend and backend technologies, I thrive on creating seamless and efficient web applications.",
     resume:
-        './public/Akash_Resume.pdf',
+        'http://localhost:3000/Akash_Resume.pdf',
 
     social: {
         linkedin: 'https://www.linkedin.com/in/akash-soni-6312aa1a1/',
@@ -39,7 +37,7 @@ const projects = [
     {
         name: 'Project 3',
         description:
-            'This is an authentication based web application. You can maintain your day to day activities using this application. The major features of this application is registration, login, update profile, change password, forget password, add todo date-wise and priority. You can mark the status as done, in progress, on hold, on rejected etc.',
+            'This is an authentication based web application.You can maintain your day to day activities using this application.The major features of this application is registration, login, update profile, change password, forget password, add todo date- wise and priority.You can mark the status as done, in progress, on hold, on rejected etc.',
         stack: ['HTML, CSS, JAVASCRIPT'],
         sourceCode: 'https://github.com/aakash-sony/todo_app',
         livePreview: 'https://github.com/aakash-sony/todo_app',
@@ -47,8 +45,6 @@ const projects = [
 ]
 
 const skills = [
-    // skills can be added or removed
-    // if there are no skills, Skills section won't show up
     'HTML',
     'CSS',
     'JavaScript',
@@ -60,7 +56,6 @@ const skills = [
 ]
 
 const contact = {
-    // email is optional - if left empty Contact section won't show up
     email: 'aakashsoni8756@gmail.com',
 }
 

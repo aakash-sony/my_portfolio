@@ -4,6 +4,7 @@ import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
+
     const { name, role, description, resume, social } = about
 
     return (
@@ -19,7 +20,7 @@ const About = () => {
 
             <div className='about__contact center'>
                 {resume && (
-                    <a href={resume}>
+                    <a href={resume} target="_blank" rel="noopener noreferrer">
                         <span type='button' className='btn btn--outline'>
                             resume
                         </span>

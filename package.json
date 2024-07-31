@@ -18,6 +18,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+     "predeploy": "npm run build",
     "start": "react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build --openssl-legacy-provider",
     "test": "react-scripts test --openssl-legacy-provider",

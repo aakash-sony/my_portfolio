@@ -39,5 +39,5 @@
 }
 .nav__list-item a {
   text-transform: uppercase;
-  font-family: bold;
+  font-weight: bold;
 }
