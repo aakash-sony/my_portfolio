@@ -9,7 +9,7 @@ const about = {
     description:
         "Hello! I'm Akash Soni, a dedicated and passionate Full Stack Java Developer. With a strong foundation in both frontend and backend technologies, I thrive on creating seamless and efficient web applications.",
     resume:
-        'http://localhost:3000/Akash_Resume.pdf',
+        'https://drive.google.com/file/d/1s2gKQ0FHByMOoXQNCQZ9CpI8OJIUmhkE/view?usp=drive_link',
 
     social: {
         linkedin: 'https://www.linkedin.com/in/akash-soni-6312aa1a1/',
