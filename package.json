@@ -2,7 +2,6 @@
   "name": "cleanfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/aakash-sony/my_portfolio",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -24,8 +23,7 @@
     "test": "react-scripts test --openssl-legacy-provider",
     "eject": "react-scripts eject --openssl-legacy-provider",
     "lint": "eslint .",
-    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
-    "deploy": "gh-pages -d build"
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
   },
   "browserslist": {
     "production": [
