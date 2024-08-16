@@ -19,7 +19,23 @@ const about = {
 
 const projects = [
     {
-        name: 'Project 1',
+        name: 'Kanban Board',
+        description:
+            'Developed a Kanban board using React.js with features to add, search, and move tasks between columns.Implemented task management functionalities and utilized React Hooks for state management along with drag - and - drop capabilities for task organization.',
+        stack: ['React JS'],
+        sourceCode: 'https://github.com/aakash-sony/Kanban_Board',
+        livePreview: 'https://aakash-sony.github.io/Kanban_Board/',
+    },
+    {
+        name: 'Textutil Application',
+        description:
+            'Developed a Textutil application using React.js. This application enables users to manipulate text by converting it to upper or lower case, removing extra spaces, and copying text. Additionally, it provides functionality to count words and characters, offering a versatile tool for text management.',
+        stack: ['React JS'],
+        sourceCode: 'https://github.com/aakash-sony/react_project01_TextUtil',
+        livePreview: 'https://aakash-sony.github.io/react_project01_TextUtil/',
+    },
+    {
+        name: 'Phone Directory',
         description:
             'This project manages contact list. You can add, delete, update and retrieve the contact. Custom header files have been created and used in this project.',
         stack: ['C Language'],
@@ -27,7 +43,7 @@ const projects = [
         livePreview: 'https://github.com/aakash-sony/phone_directory',
     },
     {
-        name: 'Project 2',
+        name: 'Fully Authentication System',
         description:
             'Here I have created a proper authentication page. In this project user can sign up, login, forget password, change password and edit their profile.',
         stack: ['HTML, CSS, JAVASCRIPT'],
@@ -35,7 +51,7 @@ const projects = [
         livePreview: 'https://github.com/aakash-sony/_authentication',
     },
     {
-        name: 'Project 3',
+        name: 'To Do List',
         description:
             'This is an authentication based web application.You can maintain your day to day activities using this application.The major features of this application is registration, login, update profile, change password, forget password, add todo date- wise and priority.You can mark the status as done, in progress, on hold, on rejected etc.',
         stack: ['HTML, CSS, JAVASCRIPT'],
@@ -48,7 +64,7 @@ const skills = [
     'HTML',
     'CSS',
     'JavaScript',
-    'React',
+    'React Js',
     'Java',
     'Oracle',
     'GitHub',
