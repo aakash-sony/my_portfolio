@@ -12,13 +12,14 @@
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 600px;
+  text-align: center;
 }
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 2em;
 }
 
 .about .link--icon {
@@ -32,6 +33,6 @@
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;
-    margin-top: 2em;
+    margin-top: 1.8em;
   }
 }

@@ -9,4 +9,16 @@
 
 .skills__list-item {
   margin: 0.5em;
+  padding: 0.5em 1em;
+  background-color: var(
+    --bg-color
+  ); /* Optional: Background color for each skill */
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+.skills__list-item:hover {
+  transform: scale(1.1) translateY(-5px) rotateX(3deg); /* Adds scale, translation, and rotation for 3D effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Increases shadow depth on hover */
 }
